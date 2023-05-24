@@ -1,10 +1,6 @@
 <a name="readme-top"></a>
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
 
 </div>
 
@@ -40,8 +36,6 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
   <ul>
@@ -60,8 +54,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **First Match checker**
 - **Full Match checker**
 
@@ -71,7 +63,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Not available
+- Not available
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,8 +118,6 @@ pip install django
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Author1**
 
 - GitHub: [Tamunokuro](https://github.com/Tamunokuro)
@@ -159,7 +149,7 @@ Feel free to check the [issues page](../../issues/).
 
 > Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project give it a star please!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -167,25 +157,6 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
