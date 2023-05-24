@@ -78,6 +78,14 @@
                                 </ul>
                                 {% endif %}
 
+                                {% if error_message %}
+                                <div class="alert alert-danger" role="alert">
+                                    {% if error_message %}
+                                      <p>Error: {{ error_message }}</p>
+                                    {% endif %}
+                                </div>
+                                {% endif %}
+
                             </div>
                         </div>
                     </div>
