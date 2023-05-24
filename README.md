@@ -30,7 +30,7 @@
 
 # 📖 [Regex query tool] <a name="about-project"></a>
 
-**Regex query tool** is a regex checker developed with Django and Bootstrap.
+**Regex query tool** is a regular expression checker developed with Django and Bootstrap.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -146,8 +146,6 @@ Feel free to check the [issues page](../../issues/).
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
-
-> Write a message to encourage readers to support your project
 
 If you like this project give it a star please!
 
