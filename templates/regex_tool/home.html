@@ -33,12 +33,12 @@
                         <div class="row">
                             <div class="col-12 col-lg-6 mx-auto">
                                 <h1>Regex Query Tool</h1>
-                                <form class="row g-3 needs-validation" method="POST" action="{% url 'regex_query_tool:query' %}" novalidate>
+                                <form class="row g-3 needs-validation" method="POST" action="{% url 'regex_query_tool:home' %}" novalidate>
                                     {% csrf_token %}
                                 
                                     <div class="d-grid gap-2">
                                             <label class="form-label" for="string">String:</label>
-                                            <input class="form-control" type="text" id="string" name="string" placeholder="Enter string" required>
+                                            <input class="form-control" type="text" id="match_string" name="match_string" placeholder="Enter string" required>
                                             <div class="valid-feedback">
                                                 Looks good!
                                             </div>
@@ -69,6 +69,7 @@
                                         <input type="submit" class="btn btn-primary py-2 mb-4 mt-5 fw-bold w-100" value="Check">
                                     </div>
                                 </form>
+                                {% with matches=data.string_query_matches %}
                                 {% if matches %}
                                 <h2>Matches:</h2>
                                 <ul>
@@ -77,14 +78,13 @@
                                     {% endfor %}
                                 </ul>
                                 {% endif %}
+                                {% endwith %}
 
-                                {% if error_message %}
-                                <div class="alert alert-danger" role="alert">
-                                    {% if error_message %}
-                                      <p>Error: {{ error_message }}</p>
-                                    {% endif %}
+                                {% for message in messages %}
+                                <div class="alert {{ message.tags }} alert-dismissible" role="alert">
+                                    {{ message }}
                                 </div>
-                                {% endif %}
+                                {% endfor %}
 
                             </div>
                         </div>
