@@ -12,7 +12,7 @@ def get_string_matches(request: StringMatchCheck) -> list:
 
     if request.full_match:
         pattern = re.compile(request.query_regex)
-        if re.search(pattern, request.match_string):
+        if re.fullmatch(pattern, request.match_string):
             matches.append(request.match_string)
     elif request.first_match:
         pattern = re.compile(request.query_regex)
